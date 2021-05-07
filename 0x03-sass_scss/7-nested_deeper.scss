@@ -1,0 +1,7 @@
+/*Using nested declarations to give stayles to body and tags inside*/
+body {
+    font-size: 14px;
+    h1 {
+      font-size: 16px; 
+      &.smaller {
+        font-size: 12px; }}}
